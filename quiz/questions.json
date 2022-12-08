@@ -1,0 +1,84 @@
+[
+    {
+        "question": "Koje godine je bio Kosovski boj ?",
+        "choice1": "1500",
+        "choice2": "1404",
+        "choice3": "1389",
+        "choice4": "1371",
+        "answer": 3
+    },
+    {
+        "question": "Ko se nalazi na novčanici od 50 dinara ?",
+        "choice1": "Stevan Mokranjac",
+        "choice2": "Petar Petrovic Njegos",
+        "choice3": "Nikola Tesla",
+        "choice4": "Djordje Vajfert",
+        "answer": 1
+
+    },
+    {
+        "question": "Najpoznatiji muslimanski mauzolej, Tadž Mahal, nalazi se u… ?",
+        "choice1": "Sirija",
+        "choice2": "Saudijska Arabija",
+        "choice3": "Pakistan",
+        "choice4": "Indija",
+        "answer": 4
+    },
+    {
+        "question": "Kada je formirano Kraljevstvo Velika Britanija ?",
+        "choice1": "1707",
+        "choice2": "1770",
+        "choice3": "1685",
+        "choice4": "1692",
+        "answer": 1
+    },
+    {
+        "question": "Gde se nalazi rt Dobre Nade ?",
+        "choice1": "Pretorija",
+        "choice2": "Kejptaun",
+        "choice3": "Blumfontejn",
+        "choice4": "Johanesburg",
+        "answer": 2
+    },
+    {
+        "question": "Koje godine je Kolumbo započeo svoje prvo veliko putovanje?",
+        "choice1": "1484",
+        "choice2": "1492",
+        "choice3": "1488",
+        "choice4": "1456",
+        "answer": 2
+    },
+    {
+        "question": "Kanarska ostrva nalaze se u kom okeanu ?",
+        "choice1": "Atlantski okean",
+        "choice2": "Pacifik (Tihi okean)",
+        "choice3": "Severno ledeni oken",
+        "choice4": "Indijski okean",
+        "answer": 1
+    },
+    {
+        "question": "Na kojoj reci se nalaze Viktorijini vodopadi ?",
+        "choice1": "Niger",
+        "choice2": "Volta",
+        "choice3": "Zambezi",
+        "choice4": "Nil",
+        "answer": 3
+    },
+    {
+        "question": "Najveca vrsta macaka na svetu je ?",
+        "choice1": "Gepard",
+        "choice2": "Tigar",
+        "choice3": "Ris",
+        "choice4": "Lav",
+        "answer": 2
+    }, 
+    {
+        "question": "U kojoj drzavi se nalazi najvise vulkana ?",
+        "choice1": "Japan",
+        "choice2": "Filipini",
+        "choice3": "Italija",
+        "choice4": "Indonezija",
+        "answer": 4
+    }
+    
+]
