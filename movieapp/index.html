@@ -1,0 +1,376 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Movie Design</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="logo-container"><h1 class="logo">Moj Bioskop</h1></div>
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <li class="menu-list-item active">Početna</li>
+                    <li class="menu-list-item">Filmovi</li>
+                    <li class="menu-list-item">Serije</li>
+                    <li class="menu-list-item">Popularno</li>
+                    <li class="menu-list-item">U trendu</li>
+                    
+                </ul>
+            </div>
+            <div class="profile-container">
+                <img class="profile-picture" src="img/avatar.jpg" alt="">
+                <div class="profile-text-container">
+                    <span class="profile-text">Profil</span>
+                    <i class="fa-solid fa-sort-down"></i>
+                </div>
+                <div class="toggle">
+                    <i class="fa-solid fa-moon toggle-icon"></i>
+                    <i class="fa-solid fa-sun toggle-icon"></i>
+                    <div class="toggle-ball"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar">
+        <i class="left-menu-icon fa-solid fa-magnifying-glass"></i>
+        <i class="left-menu-icon fa-solid fa-house"></i>
+        <i class="left-menu-icon fa-solid fa-users"></i>
+        <i class="left-menu-icon fa-solid fa-bookmark"></i>
+        <i class="left-menu-icon fa-solid fa-tv"></i>
+        <i class="left-menu-icon fa-solid fa-hourglass-start"></i>
+        <i class="left-menu-icon fa-solid fa-cart-shopping"></i>
+        
+    </div>
+    <div class="container">
+        <div class="content-container">
+            <div class="featured-content"
+            style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('img/f-1.jpg');"
+            >
+            <img class="featured-titile" src="img/f-t-1.png" alt="">
+            <p class="featured-desc">Radnja filma se odvija na dubokom Jugu i starom Zapadu. Film prati oslobođenog roba Đanga
+                koji zajedno sa lovcem na glave dr Kingom Šlucom kreće u misiju spašavanja svoje supruge Brumhilde od okrutnog i 
+                harizmatičnog vlasnika plantaže Kevina.
+            </p>
+                <button class="featured-button">GLEDAJ</button>
+
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">NOVA IZDANJA</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/notimetodie.jpg" alt="">
+                             <span class="movie-list-item-title">No Time To Die</span>
+                            <p class="movie-list-item-desc">Bond je u misiji u kojoj je potrebno da izbavi kidnapovanog naučnika. Misija navešće Bonda na trag misterioznom 
+                                zlikovcu koji je naoružan opasnom tehnologijom. </p>
+                                <button class="movie-list-item-button">GLEDAJ</button> 
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/avatar2.JPG" alt="">
+                             <span class="movie-list-item-title">Avatar 2</span>
+                            <p class="movie-list-item-desc">Džejk Sali živi sa porodicom na planeti Pandori. Kada se vrati poznati neprijatelj koji 
+                             želi da ih uništi, Džejk sa vojskom naroda Navi pokušava da zaštiti planetu.</p>
+                                <button class="movie-list-item-button">GLEDAJ</button> 
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/blonde.JPG" alt="">
+                             <span class="movie-list-item-title">Blonde</span>
+                            <p class="movie-list-item-desc">Blonde je američki biografski film koji prikazuje život i karijeru američke glumice
+                                Merlin Monro.</p>
+                                <button class="movie-list-item-button">GLEDAJ</button> 
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/nile.JPG" alt="">
+                             <span class="movie-list-item-title">Death On The Nile</span>
+                            <p class="movie-list-item-desc">Putovanje parobrodom rekom Nil za detektiva Herkula Poaroa pretvara 
+                                se u potragu za ubicom, u trenucima kada se medeni mesec savršenog para tragično završava.</p>
+                                <button class="movie-list-item-button">GLEDAJ</button> 
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/smile.JPG" alt="">
+                             <span class="movie-list-item-title">Smile</span>
+                            <p class="movie-list-item-desc">Dok nezamislivi užas počinje da obuzima njen život, Rouz mora da se 
+                                suoči sa svojom prošlošću, kako bi pobegla od svoje zastrašujuće, nove stvarnosti.</p>
+                                <button class="movie-list-item-button">GLEDAJ</button> 
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/ticket.JPG" alt="">
+                             <span class="movie-list-item-title">Ticket To Paradise</span>
+                            <p class="movie-list-item-desc">Bivši partneri koji se nalaze na zajedničkoj misiji da spreče svoju 
+                                zaljubljenu ćerku da napravi istu grešku koju su i oni sami nekada napravili.</p>
+                                <button class="movie-list-item-button">GLEDAJ</button> 
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/blacklight.JPG" alt="">
+                             <span class="movie-list-item-title">Blacklight</span>
+                            <p class="movie-list-item-desc">Travis Blok je vladin operativac koji je zadužen za izvlačenje tajnih
+                                 agenata iz opasnih situacija. Kada otkrijena američke građane, Blok se nađe na nišanu ljudi za koje radi.</p>
+                                <button class="movie-list-item-button">GLEDAJ</button> 
+                        </div>
+                        
+                    </div>
+                    <i class="fa-solid fa-chevron-right arrow"></i>
+                </div>
+            </div>
+
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">AKCIJE</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/salt.JPG" alt="">
+                             <span class="movie-list-item-title">Salt</span>
+                            <p class="movie-list-item-desc">Radnja filma prati napore agenta CIA, Evelin Salt, da dokaže svoju nevinost. 
+                                Optužena je da je dvostruki tajni agent i da radi u korist Rusa.</p>
+                                <button class="movie-list-item-button">GLEDAJ</button> 
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/johnwick.JPG" alt="">
+                             <span class="movie-list-item-title">John Wick 3</span>
+                            <p class="movie-list-item-desc">Džon Vik-a love jer mu je raspisana poternica od 14 miliona 
+                                dolara i zato što je prekršio osnovno pravilo hotela Continental, a to je 'Ne ubij u hotelu'.</p>
+                                <button class="movie-list-item-button">GLEDAJ</button> 
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/taken1.JPG" alt="">
+                             <span class="movie-list-item-title">Taken</span>
+                            <p class="movie-list-item-desc">Dve tinejdžerke su oteli trgovci belim robljem na njihovom putovanju u Pariz.
+                                Brajan će učiniti sve da pronadje svoju ćerku.
+                            </p>
+                                <button class="movie-list-item-button">GLEDAJ</button> 
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/mechanic.JPG" alt="">
+                             <span class="movie-list-item-title">Mechanic</span>
+                            <p class="movie-list-item-desc">Elitni ubica koji poštuje stroga pravila ponašanja i ima jedinstveni talenat za
+                                besprimetno uklanjanje mete.</p>
+                                <button class="movie-list-item-button">GLEDAJ</button> 
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/tomkruz.JPG" alt="">
+                             <span class="movie-list-item-title">Mission Impossible</span>
+                            <p class="movie-list-item-desc">Itan će okupiti svoj tim i udružiti snage sa nekadašnjom britanskom agentkinjom, 
+                                Ajlom koja je možda pripadnica ove otpadničke nacije, jer će se grupa suočiti sa najtežom nemogućom misijom ikad.</p>
+                                <button class="movie-list-item-button">GLEDAJ</button> 
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/Skyfall.jpg" alt="">
+                             <span class="movie-list-item-title">Skyfall</span>
+                            <p class="movie-list-item-desc">Radnja prati Bondove napore da razotkrije pozadinu terorističkog napada na londonsko sedište MI6, 
+                                pri čemu će on morati da se suoči sa neprijatnim detaljima sopstvene prošlosti.</p>
+                                <button class="movie-list-item-button">GLEDAJ</button> 
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/divergent.JPG" alt="">
+                             <span class="movie-list-item-title">Divergent</span>
+                            <p class="movie-list-item-desc">Tris se ne uklapa ni u jednu grupu, ona je drugačija i to mora da sakrije. 
+                                Kada otkrije zaveru kojoj je cilj da se unište svi koji su različiti, Tris će morati da otkrije šta ih čini toliko drugačijim da su opasni.</p>
+                                <button class="movie-list-item-button">GLEDAJ</button> 
+                        </div>
+                        
+                    </div>
+                    <i class="fa-solid fa-chevron-right arrow"></i>
+                </div>
+            </div>
+
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">ROMANTIKA</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/titanic.JPG" alt="">
+                             <span class="movie-list-item-title">Titanic</span>
+                            <p class="movie-list-item-desc">Prelepa ljubavna priča o dvoje mladih, Džeku i Rouz, koji su se igrom slučaja
+                                upoznali na tada najvećem i najglamuroznijem brodu Titaniku.</p>
+                                <button class="movie-list-item-button">GLEDAJ</button> 
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/lett.JPG" alt="">
+                             <span class="movie-list-item-title">Letters To Juliet</span>
+                            <p class="movie-list-item-desc">Mlada Amerikanka Sofi putuje u Veronu, grad ljubavi Romea i Julije, i 
+                                tamo se pridruzuje grupi volontera koja odgovara na pisma Juliji u kojima se traže ljubavni saveti. </p>
+                                <button class="movie-list-item-button">GLEDAJ</button> 
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/thefaultstars.JPG" alt="">
+                             <span class="movie-list-item-title">The Fault In Our Stars</span>
+                            <p class="movie-list-item-desc">Hejzel i Gas su tinejdzeri koje spaja ljubav koja ih odvodi na nezaboravno putovanje. 
+                                Pošto boluju od teške bolesti, njihov odnos je poseban zbog načina i mesta na kom su se upoznali.</p>
+                                <button class="movie-list-item-button">GLEDAJ</button> 
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/killers.JPG" alt="">
+                             <span class="movie-list-item-title">Killers</span>
+                            <p class="movie-list-item-desc">Džen se nevoljno pridružuje svojim roditeljima na putovanju po francuskoj rivijeri gde 
+                                upoznaje muškarca iz svojih snova, zasenjujućeg i zgodnog Spensera Aimesa. </p>
+                                <button class="movie-list-item-button">GLEDAJ</button> 
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/kiss.JPG" alt="">
+                             <span class="movie-list-item-title">The Kisssing Booth</span>
+                            <p class="movie-list-item-desc">Život lepe tinejdžerke koja pravi štand za poljpce zbog onog u kojeg je tajno zaljubljena.</p>
+                                <button class="movie-list-item-button">GLEDAJ</button> 
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/theproposal.JPG" alt="">
+                             <span class="movie-list-item-title">The Proposal</span>
+                            <p class="movie-list-item-desc"> Kada Margaret, urednica iz New Yorka bude suočena s mogućnom deportacijom u rodnu Kanadu,
+                                 ona izjavljuje da je verena za svog pomoćnika Andrewa kojeg već godinama muči.</p>
+                                <button class="movie-list-item-button">GLEDAJ</button> 
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/justgo.JPG" alt="">
+                             <span class="movie-list-item-title">Just Go With It</span>
+                            <p class="movie-list-item-desc">Adam Sendler glumi plastičnog kirurga Koji, kako bi osvojio Ženska srca, laze 
+                                da je oženjen i da živi u nesrećnom braku.</p>
+                                <button class="movie-list-item-button">GLEDAJ</button> 
+                        </div>
+                        
+                    </div>
+                    <i class="fa-solid fa-chevron-right arrow"></i>
+                </div>
+            </div>
+
+
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">KOMEDIJE</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/homealone.JPG" alt="">
+                             <span class="movie-list-item-title">Home Alone</span>
+                            <p class="movie-list-item-desc">Porodica greškom zaboravlja Kevina kod kuće i odlazi u Francusku.
+                                On ostaje sam, a kuću počinju da opsedaju lopovi Hari i Marv. Kevin će učiniti sve da je odbrani.
+                            </p>
+                                <button class="movie-list-item-button">GLEDAJ</button> 
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/meet.JPG" alt="">
+                             <span class="movie-list-item-title">Meet The Parents</span>
+                            <p class="movie-list-item-desc">Greg Foker je zaljubljen u Pem Berns, i predstojeći vikend će provesti u kući njenih roditelja 
+                               međutim, kada se Greg upozna s njima, stvari brzo počinju da se kreću nizbrdo.</p>
+                                <button class="movie-list-item-button">GLEDAJ</button> 
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/bountyhunter.JPG" alt="">
+                             <span class="movie-list-item-title">The Bounty Hunter</span>
+                            <p class="movie-list-item-desc">Lovac na ucenjene glave Majlo Bojd nema sreće u svojoj profesiji. 
+                                Dobija zadatak da privede jednu osobu koja je pobegla nakon isplate kaucije, ta osoba je njegova bivša žena, Nikol. </p>
+                                <button class="movie-list-item-button">GLEDAJ</button> 
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/millers.JPG" alt="">
+                             <span class="movie-list-item-title">We're The Millers</span>
+                            <p class="movie-list-item-desc">Kako bi skinuo sumnju policije i graničara sa sebe, Dejvid Klark, sitni diler, 
+                                angažuje troje komšija da glume njegovu "normalnu" i pristojnu porodicu.</p>
+                                <button class="movie-list-item-button">GLEDAJ</button> 
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/duplex.JPG" alt="">
+                             <span class="movie-list-item-title">Duplex</span>
+                            <p class="movie-list-item-desc">Alex i Nancy napokon nailaze na ono što oni smatraju stanom iz snova.
+                                Tako su mislili dok nisu upoznali svoju komšinicu na prvi pogled finu,ali ustvari mrzovoljnu i čangrizavu staricu.</p>
+                                <button class="movie-list-item-button">GLEDAJ</button> 
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/pinkpanter.JPG" alt="">
+                             <span class="movie-list-item-title">The Pink Panther</span>
+                            <p class="movie-list-item-desc">Inspektor Kluzo dobija najvažniji zadatak u karijeri: rešavanje ubistva
+                                fudbalskog trenera i pronalaženje ružičastog dijamanta koji mu je pripadao.
+                            </p>
+                                <button class="movie-list-item-button">GLEDAJ</button> 
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/thehangover.JPG" alt="">
+                             <span class="movie-list-item-title">The Hangover</span>
+                            <p class="movie-list-item-desc">Radnja filma prati tri drugara koji žele da proslave momačko veče u Las Vegasu.
+                                Nakon lude noći, ujutru u apartmanu pronalaze tigra, bebu, a mladoženje nema nigde.
+                            </p>
+                                <button class="movie-list-item-button">GLEDAJ</button> 
+                        </div>
+                       
+                        
+                    </div>
+                    <i class="fa-solid fa-chevron-right arrow"></i>
+                </div>
+            </div>
+
+
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">SERIJE</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/gossipgirl.JPG" alt="">
+                             <span class="movie-list-item-title">Gossip Girl</span>
+                            <p class="movie-list-item-desc">Živote adolescenata sa Menhetna u korak prati Tračara za koju niko ne zna ko je.
+                                Ona objavljuje sve o njihovim životima na istoimenom blogu.</p>
+                                <button class="movie-list-item-button">GLEDAJ</button> 
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/desperate.JPG" alt="">
+                             <span class="movie-list-item-title">Desperate Housewives</span>
+                            <p class="movie-list-item-desc">Serija prati uspone i padove u životima najboljih drugarica koje žive u istoj
+                                ulici i dele sve detalje i dešavanja međusobno. 
+                            </p>
+                                <button class="movie-list-item-button">GLEDAJ</button> 
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/vampire.JPG" alt="">
+                             <span class="movie-list-item-title">The Vampire Diaries</span>
+                            <p class="movie-list-item-desc">Kada Stefan, novi učenik srednje škole u Mystic Fallsu, ugleda Elenu odmah se zaljubi u nju. 
+                                Nakon nekog vremena, Elena sazna da je on vampir. </p>
+                                <button class="movie-list-item-button">GLEDAJ</button> 
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/friends.JPG" alt="">
+                             <span class="movie-list-item-title">Friends</span>
+                            <p class="movie-list-item-desc">Serija prati komične i romantične živote prijatelja koji žive u NewYork-u.</p>
+                                <button class="movie-list-item-button">GLEDAJ</button> 
+                        </div>
+                        
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/gameofthrones.JPG" alt="">
+                             <span class="movie-list-item-title">Game Of Thrones</span>
+                            <p class="movie-list-item-desc">Priča pratne mnogobrojne događaje koji se dešavaju u sedam različitih kraljevstva.</p>
+                                <button class="movie-list-item-button">GLEDAJ</button> 
+                        </div>
+
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/pretty.JPG" alt="">
+                             <span class="movie-list-item-title">Pretty Little Liars</span>
+                            <p class="movie-list-item-desc">Nakon nestanka Alison, ostatku društva počinju da se dešavaju čudne stvari.
+                                Misteriozna osoba "A" im šalje uznemiravajuće poruke.
+                            </p>
+                                <button class="movie-list-item-button">GLEDAJ</button> 
+                        </div>
+                        
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/lucifer.JPG" alt="">
+                             <span class="movie-list-item-title">Lucifer</span>
+                            <p class="movie-list-item-desc">Čuvar pakla silazi sa neba i upoznaje detektivku u koju se zaljubljuje i
+                                kojoj pomaže da reši niz ubistava.
+                            </p>
+                                <button class="movie-list-item-button">GLEDAJ</button> 
+                        </div>
+                        
+                    </div>
+                    <i class="fa-solid fa-chevron-right arrow"></i>
+                </div>
+            </div>
+
+            
+
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
