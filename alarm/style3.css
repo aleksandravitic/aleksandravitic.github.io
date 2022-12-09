@@ -1,0 +1,31 @@
+body{
+	background: linear-gradient(to right, #9cecfb, #65c7f7, #0052d4);
+		
+}
+
+.container{
+	margin: 250px;
+	text-align: center;
+	
+}
+
+a:hover {
+	color:#38c3f5;
+}
+
+a {
+	padding: 20px;
+	margin: 20px;
+	text-decoration: none;
+	font-size: 200%;
+	background-color: #d0e9f2;
+	color: #090145;
+	
+}
+
+p {
+	padding: 20px;
+	font-size: 150%;
+	color: #155166;
+
+}
